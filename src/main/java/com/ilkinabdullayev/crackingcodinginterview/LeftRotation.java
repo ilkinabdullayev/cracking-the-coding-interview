@@ -5,6 +5,8 @@
  */
 package com.ilkinabdullayev.crackingcodinginterview;
 
+import com.ilkinabdullayev.util.Helper;
+
 /**
  *
  * @author ilkinabdullayev
@@ -58,5 +60,11 @@ public class LeftRotation {
 
         return a;
     }
-
+    
+    
+    public int[] rotLeftJugglingMethod(int[] a, int d) {
+        int gcdRotation = Helper.gcd(a.length, d);
+        //will proceed...
+        return a;
+    }
 }
